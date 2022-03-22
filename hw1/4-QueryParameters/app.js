@@ -30,9 +30,9 @@ app.get('/cats?_and_dogs?', (req, res)=>{
 // localhost:3001/greets/Tom/year?age=44
 
 app.get('/greets/:name/year', (req, res)=>{
-    let name = req.params.name
-    let age = req.query.age
-    let dob = parseInt(2022) - parseFloat(age);
+    var name = req.params.name
+    var age = req.query.age
+    var dob = parseInt(2022) - parseFloat(age);
     console.log(req.params);
     console.log(req.query);
     res.send(`<h1>Hello, ${name}!</h1>
