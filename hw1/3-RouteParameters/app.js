@@ -4,9 +4,9 @@ const express = require('express');
 const app = express()
 let port = 3001;
 
-app.get('/', (request, response)=>{
+app.get('/', (req, res)=>{
 
-    response.send(`<h1>Hello, world!</h1>`)
+    res.send(`<h1>Hello, world!</h1>`)
 })
 
 app.get('/cats?', (req, res)=>{
