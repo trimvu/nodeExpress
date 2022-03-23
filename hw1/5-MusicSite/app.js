@@ -56,7 +56,7 @@ let data = [
             "Skinny Sweaty Man", 
             "Behind the Sun", 
             "Subterranean Homesick Blues", 
-            "Party on Your Pussy", 
+            "Special Secret Song Inside", 
             "No Chump Love Sucker",
             "Walkin' on Down the Road",
             "Love Trilogy", 
