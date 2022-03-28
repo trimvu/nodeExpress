@@ -300,7 +300,7 @@
 
     {
         "name":"Unlimited Love",
-        "shortname":"unlimited_love",
+        "shortname":"unlimited_love", 
         "publishDate":"1 April 2022",
         "imgURL":"rhcp13.png",
         "members":["Anthony Kiedis", "John Frusciante", "Flea", "Chad Smith"],
