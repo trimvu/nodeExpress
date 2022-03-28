@@ -1,0 +1,329 @@
+{
+"data" : [
+    {
+        "name":"The Red Hot Chili Peppers",
+        "shortname":"the_red_hot_chili_peppers",
+        "publishDate":"10 August 1984",
+        "imgURL":"rhcp1.jpg",
+        "members":["Anthony Kiedis", "Jack Sherman", "Flea", "Cliff Martinez"],
+
+        "songTitles":[
+            "True Men Don't Kill Coyotes", 
+            "Baby Appeal", 
+            "Buckle Down", 
+            "Get Up and Jump", 
+            "Why Don't You Love Me", 
+            "Green Heaven", 
+            "Mommy, Where's Daddy?", 
+            "Out in L.A.", 
+            "Police Helicopter", 
+            "You Always Sing the Same", 
+            "Grand Pappy Du Plenty"
+        ] 
+    },
+
+    {
+        "name":"Freaky Styley",
+        "shortname":"freaky_styley",
+        "publishDate":"16 August 1985",
+        "imgURL":"rhcp2.jpg",
+        "members":["Anthony Kiedis", "Hillel Slovak", "Flea", "Cliff Martinez"],
+
+        "songTitles":[
+            "Jungle Man",
+            "Hollywood (Africa) (The Meters cover)", 
+            "American Ghost Dance",
+            "If You Want Me to Stay (Sly & the Family Stone cover)", 
+            "Nevermind", 
+            "Freaky Styley", 
+            "Blackeyed Blonde", 
+            "The Brothers Cup", 
+            "Battleship", 
+            "Lovin' and Touchin'", 
+            "Catholic School Girls Rule", 
+            "Sex Rap", 
+            "Thirty Dirty Birds", 
+            "Yertle the Turtle"
+        ]
+    }, 
+
+    {
+        "name":"The Uplift Mofo Party Plan",
+        "shortname":"the_uplift_mofo_party_plan",
+        "publishDate":"29 September 1987",
+        "imgURL":"rhcp3.jpg",
+        "members":["Anthony Kiedis", "Hillel Slovak", "Flea", "Jack Irons"],
+
+        "songTitles":[
+            "Fight Like a Brave", 
+            "Funky Crime", 
+            "Me and My Friends", 
+            "Backwoods", 
+            "Skinny Sweaty Man", 
+            "Behind the Sun", 
+            "Subterranean Homesick Blues", 
+            "Special Secret Song Inside", 
+            "No Chump Love Sucker",
+            "Walkin' on Down the Road",
+            "Love Trilogy", 
+            "Organic Anti-Beat Box Band"
+        ] 
+    },
+
+    {
+        "name":"Mother's Milk",
+        "shortname":"mothers_milk",
+        "publishDate":"16 August 1989",
+        "imgURL":"rhcp4.jpg",
+        "members":["Anthony Kiedis", "John Frusciante", "Flea", "Chad Smith"],
+
+        "songTitles":[
+            "Good Time Boys", 
+            "Higher Ground (Stevie Wonder cover)", 
+            "Subway to Venus", 
+            "Magic Johnson", 
+            "Nobody Weird Like Me", 
+            "Knock Me Down", 
+            "Taste the Pain", 
+            "Stone Cold Bush", 
+            "Fire (Jimi Hendrix cover)", 
+            "Pretty Little Ditty", 
+            "Punk Rock Classic", 
+            "Sexy Mexican Maid", 
+            "Johnny, Kick a Hole in the Sky"
+        ] 
+    },
+
+    {
+        "name":"Blood Sugar Sex Magik",
+        "shortname":"blood_sugar_sex_magik",
+        "publishDate":"24 September 1991",
+        "imgURL":"rhcp5.jpg",
+        "members":["Anthony Kiedis", "John Frusciante", "Flea", "Chad Smith"],
+
+        "songTitles":[
+            "The Power of Equality", 
+            "If You Have to Ask", 
+            "Breaking the Girl", 
+            "Funky Monks", 
+            "Suck My Kiss", 
+            "I Could Have Lied", 
+            "Mellowship Slinky in B Major", 
+            "The Righteous & the Wicked", 
+            "Give It Away", 
+            "Blood Sugar Sex Magik", 
+            "Under the Bridge", 
+            "Naked in the Rain", 
+            "Apache Rose Peacock", 
+            "The Greeting Song", 
+            "My Lovely Man", 
+            "Sir Psycho Sexy", 
+            "They're Red Hot"
+        ] 
+    },
+
+    {
+        "name":"One Hot Minute",
+        "shortname":"one_hot_minute",
+        "publishDate":"12 September 1995",
+        "imgURL":"rhcp6.jpg",
+        "members":["Anthony Kiedis", "Dave Navarro", "Flea", "Chad Smith"],
+
+        "songTitles":[
+            "Warped", 
+            "Aeroplane", 
+            "Deep Kick", 
+            "My Friends", 
+            "Coffee Shop", 
+            "Pea", 
+            "One Big Mob", 
+            "Walkabout", 
+            "Tearjerker", 
+            "One Hot Minute", 
+            "Falling into Grace", 
+            "Shallow Be Thy Game", 
+            "Transcending"
+        ] 
+    },
+
+    {
+        "name":"Californication",
+        "shortname":"californication",
+        "publishDate":"8 June 1999",
+        "imgURL":"rhcp7.jpg",
+        "members":["Anthony Kiedis", "John Frusciante", "Flea", "Chad Smith"],
+
+        "songTitles":[
+            "Around the World", 
+            "Parallel Universe", 
+            "Scar Tissue", 
+            "Otherside", 
+            "Get on Top", 
+            "Californication", 
+            "Easily", 
+            "Porcelain", 
+            "Emit Remmus", 
+            "I Like Dirt", 
+            "This Velvet Glove", 
+            "Savior", 
+            "Purple Stain", 
+            "Right on Time", 
+            "Road Trippin'"
+        ] 
+    },
+
+    {
+        "name":"By the Way",
+        "shortname":"by_the_way",
+        "publishDate":"9 July 2002",
+        "imgURL":"rhcp8.jpg",
+        "members":["Anthony Kiedis", "John Frusciante", "Flea", "Chad Smith"],
+
+        "songTitles":[
+            "By the Way", 
+            "Universally Speaking", 
+            "This Is the Place", 
+            "Dosed", 
+            "Don't Forget Me", 
+            "The Zephyr Song", 
+            "Can't Stop", 
+            "I Could Die for You", 
+            "Midnight", 
+            "Throw Away Your Television", 
+            "Cabron", 
+            "Tear", 
+            "On Mercury", 
+            "Minor Thing", 
+            "Warm Tape", 
+            "Venice Queen"
+        ] 
+    },
+
+    {
+        "name":"Stadium Arcadium - Jupiter",
+        "shortname":"stadium_arcadium_jupiter",
+        "publishDate":"9 May 2006",
+        "imgURL":"rhcp9.jpg",
+        "members":["Anthony Kiedis", "John Frusciante", "Flea", "Chad Smith"],
+
+        "songTitles":[
+            "Dani California", 
+            "Snow (Hey Oh)", 
+            "Charlie", 
+            "Stadium Arcadium", 
+            "Hump de Bump", 
+            "She's Only 18", 
+            "Slow Cheetah", 
+            "Torture Me", 
+            "Strip My Mind", 
+            "Especially in Michigan", 
+            "Warlocks", 
+            "C'mon Girl", 
+            "Wet Sand", 
+            "Hey"
+        ] 
+    },
+
+    {
+        "name":"Stadium Arcadium - Mars",
+        "shortname":"stadium_arcadium_mars",
+        "publishDate":"9 May 2006",
+        "imgURL":"rhcp10.jpg",
+        "members":["Anthony Kiedis", "John Frusciante", "Flea", "Chad Smith"],
+
+        "songTitles":[
+            "Desecration Smile", 
+            "Tell Me Baby", 
+            "Hard to Concentrate", 
+            "21st Century", 
+            "She Looks to Me", 
+            "Readymade", 
+            "If", 
+            "Make You Feel Better", 
+            "Animal Bar", 
+            "So Much I", 
+            "Storm in a Teacup", 
+            "We Believe", 
+            "Turn It Again", 
+            "Death of a Martian"
+        ] 
+    },
+
+    {
+        "name":"I'm with You",
+        "shortname":"im_with_you",
+        "publishDate":"26 August 2011",
+        "imgURL":"rhcp11.jpg",
+        "members":["Anthony Kiedis", "Josh Klinghoffer", "Flea", "Chad Smith"],
+
+        "songTitles":[
+            "Monarchy of Roses", 
+            "Factory of Faith", 
+            "Brendan's Death Song", 
+            "Ethiopia", 
+            "Annie Wants a Baby", 
+            "Look Around", 
+            "The Adventures of Rain Dance Maggie", 
+            "Did I Let You Know", 
+            "Goodbye Hooray", 
+            "Happiness Loves Company", 
+            "Police Station", 
+            "Even You Brutus?", 
+            "Meet Me at the Corner", 
+            "Dance, Dance, Dance"
+        ] 
+    },
+
+    {
+        "name":"The Getaway",
+        "shortname":"the_getaway",
+        "publishDate":"17 June 2016",
+        "imgURL":"rhcp12.jpg",
+        "members":["Anthony Kiedis", "Josh Klinghoffer", "Flea", "Chad Smith"],
+
+        "songTitles":[
+            "The Getaway", 
+            "Dark Necessities", 
+            "We Turn Red", 
+            "The Longest Wave", 
+            "Goodbye Angels", 
+            "Sick Love", 
+            "Go Robot", 
+            "Feasting on the Flowers", 
+            "Detroit", 
+            "This Ticonderoga", 
+            "Encore", 
+            "The Hunter", 
+            "Dreams of a Samurai"
+        ] 
+    },
+
+    {
+        "name":"Unlimited Love",
+        "shortname":"unlimited_love",
+        "publishDate":"1 April 2022",
+        "imgURL":"rhcp13.png",
+        "members":["Anthony Kiedis", "John Frusciante", "Flea", "Chad Smith"],
+
+        "songTitles":[
+            "Black Summer", 
+            "Here Ever After", 
+            "Aquatic Mouth Dance", 
+            "Not the One", 
+            "Poster Child", 
+            "The Great Apes", 
+            "It's Only Natural", 
+            "She's a Lover", 
+            "These Are the Ways", 
+            "Whatchu Thinkin'", 
+            "Bastards of Light", 
+            "White Braids & Pillow Chair", 
+            "One Way Traffic", 
+            "Veronica", 
+            "Let 'Em Cry", 
+            "The Heavy Wing", 
+            "Tangelo"
+        ] 
+    }
+]
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= pageTitle %> </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <ul class="nav nav-pills bg-dark d-flex justify-content-center sticky">
+    <li class="nav-item">
+      <a class="nav-link text-white" aria-current="page" href="/">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-white" href="/About">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-white" href="/albums">Albums</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-white" href="/feedback">Feedback</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-white" href="/chat">Chat</a>
+    </li>
+  </ul>
+
+  <div class="container-fluid">
+    <div class="row justify-content-center m-5 p-5 center opp">
+      <% albumDetail.forEach(element => { %>
+        <img class="col-4" src="/images/album-covers/<%= element.imgURL %>"  alt="Cover art for <%= element.name %>">
+      
+        <div class="col-3 text-white">
+          <h1><%= element.name %></h1>
+          <h3><%= element.publishDate %></h3>
+          <ol>
+            <% songNames[0].forEach(element => { %>
+              <li>
+                <%= element %> 
+              </li>
+            <% }) %>
+          </ol>
+        </div>
+        <div class="col-2 text-white">
+            <h1>Main Personnel: </h1>
+            <ul style="list-style: none">
+                <li>Lead Vocals: <%= members[0][0] %> </li>
+                <li>Guitar: <%= members[0][1] %> </li>
+                <li>Bass: <%= members[0][2] %> </li>
+                <li>Drums: <%= members[0][3] %> </li>
+            </ul>
+        </div>
+      <% }) %>
+    </div>
+  </div>
+</body>
+</html>

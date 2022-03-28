@@ -1,0 +1,134 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-image: url("/images/background/background.gif");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position:center;
+    background-size: 95vh;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+a:link {
+    color: #E32227;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #E32227;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #E32227;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #E32227;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.text-white {
+    font-size: 20px;
+}
+
+.center {
+    top: auto;
+    bottom: auto;
+}
+
+
+.feedback, .feedback-form-title {
+    font-size: 2rem;
+}
+
+.feedback-form {
+    margin-top: 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+}
+
+
+.feedback-title {
+    font-size: 1.2em;
+}
+
+.feedback-form-title {
+    font-size: 2em;
+}
+
+.feedback-name {
+    font-size: .6em;
+    font-weight: 100;
+}
+
+.feedback-message {
+    font-weight: 100;
+    font-size: .9em;
+    line-height: 120%;
+    margin-top: 5px;
+}
+
+.feedback-item {
+    border-bottom: 1px solid gray;
+    padding: 8px 0;
+}
+
+.feedback-item:last-of-type {
+    background-color: black;
+    opacity: 90%;
+    border-bottom: none;
+}
+
+.form-control {
+    font-weight: 100;
+    font-size: 1.7rem;
+    opacity: 75%;
+
+}
+
+.chat-display {
+    min-height: 150px;
+    max-height: 40vh;
+    overflow: scroll;
+    font-size: 1.2em;
+    background-color: white;
+    opacity: 90%;
+}
+
+.chat-display p {
+    font-size: .9em;
+    padding: 0 10px;
+}
+
+.chat-form {
+    margin-top: 20px;
+    /* font-family: "Roboto", sans-serif; */
+    font-size: 1.5rem;
+    color: white;
+    background-color: black;
+    opacity: 90%;
+}
+
+.op {
+    background-color: black;
+    opacity: 90%;
+}
+
+.opp {
+    background-color: black;
+    opacity: 99%;
+}
