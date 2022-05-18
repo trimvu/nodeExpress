@@ -2,7 +2,7 @@
 const express = require('express');
 const app = express();
 const socket = require('socket.io');
-let port = 3000;
+let PORT = process.env.PORT || 8080;
 
 app.use(express.static('public'))
 
@@ -15,8 +15,8 @@ app.use(require('./routes/feedback'));
 app.use(require('./routes/chat'));
 
 
-let server = app.listen(port, ()=>{
-    console.log(`Listening on port ${port}`);
+let server = app.listen(PORT, ()=>{
+    console.log(`Listening on port ${PORT}`);
 })
 
 let io = socket(server);
